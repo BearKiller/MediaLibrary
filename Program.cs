@@ -1,28 +1,14 @@
 ﻿using NLog;
 
-namespace MediaLibrary;
-class Program
-{
-    public abstract class Media {
+// See https://aka.ms/new-console-template for more information
+string path = Directory.GetCurrentDirectory() + "\\nlog.config";
 
-            //public virtual string Display() {
+// create instance of Logger
+var logger = LogManager.LoadConfiguration(path).GetCurrentClassLogger();
+logger.Info("Program started");
 
-            //}
+string scrubbedFile = FileScrubber.ScrubMovies("movies.csv");
+logger.Info(scrubbedFile);
+MovieFile movieFile = new MovieFile(scrubbedFile);
 
-    }
-
-    static void Main(string[] args) {
-
-    string path = Directory.GetCurrentDirectory() + "\\nlog.config";
-
-    // create instance of Logger
-    var logger = LogManager.LoadConfiguration(path).GetCurrentClassLogger();
-    logger.Info("Program started");
-
-    Console.WriteLine("Hello World!");
-
-    logger.Info("Program ended");
-
-    }
-
-}
+logger.Info("Program ended");
