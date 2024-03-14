@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RwNKXUw/rLeC04Vgy6DP5TciBax8pgqGRQzGEZGenFL1Q6C1GfU/rFSzfqh+mBbP2rhcbZ8f1WuBBQM+ln7jUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kbyrkett\\Documents\\MediaLibrary\\MediaLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kbyrkett\\.nuget\\packages\\nlog\\5.1.1\\nlog.5.1.1.nupkg.sha512",
+    "C:\\Users\\kbyrkett\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\kbyrkett\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512",
+    "C:\\Users\\kbyrkett\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\kbyrkett\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
