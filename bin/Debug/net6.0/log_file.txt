@@ -22,3 +22,8 @@
 2024-03-21 14:04:04.4694|INFO|Program|movies.scrubbed.csv
 2024-03-21 14:04:04.4955|INFO|MovieFile|Movies in file 9125
 2024-03-21 14:04:04.5044|INFO|Program|Program ended
+2024-03-21 15:03:48.5067|INFO|Program|Program started
+2024-03-21 15:03:48.5621|INFO|FileScrubber|File already scrubbed
+2024-03-21 15:03:48.5621|INFO|Program|movies.scrubbed.csv
+2024-03-21 15:03:48.5886|INFO|MovieFile|Movies in file 9125
+2024-03-21 15:04:00.3837|INFO|Program|Program ended
