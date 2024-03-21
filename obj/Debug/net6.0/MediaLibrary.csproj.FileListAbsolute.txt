@@ -15,3 +15,4 @@ C:\Users\kbyrkett\Documents\MediaLibrary\obj\Debug\net6.0\refint\MediaLibrary.dl
 C:\Users\kbyrkett\Documents\MediaLibrary\obj\Debug\net6.0\MediaLibrary.pdb
 C:\Users\kbyrkett\Documents\MediaLibrary\obj\Debug\net6.0\MediaLibrary.genruntimeconfig.cache
 C:\Users\kbyrkett\Documents\MediaLibrary\obj\Debug\net6.0\ref\MediaLibrary.dll
+C:\Users\kbyrkett\Documents\MediaLibrary\obj\Debug\net6.0\MediaLibrary.sourcelink.json

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kbyrkett\\Documents\\MediaLibrary\\MediaLibrary.csproj": {}
+    "/home/kdbyrkett/Documents/DotNet/MediaLibrary/MediaLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kbyrkett\\Documents\\MediaLibrary\\MediaLibrary.csproj": {
+    "/home/kdbyrkett/Documents/DotNet/MediaLibrary/MediaLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kbyrkett\\Documents\\MediaLibrary\\MediaLibrary.csproj",
+        "projectUniqueName": "/home/kdbyrkett/Documents/DotNet/MediaLibrary/MediaLibrary.csproj",
         "projectName": "MediaLibrary",
-        "projectPath": "C:\\Users\\kbyrkett\\Documents\\MediaLibrary\\MediaLibrary.csproj",
-        "packagesPath": "C:\\Users\\kbyrkett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kbyrkett\\Documents\\MediaLibrary\\obj\\",
+        "projectPath": "/home/kdbyrkett/Documents/DotNet/MediaLibrary/MediaLibrary.csproj",
+        "packagesPath": "/home/kdbyrkett/.nuget/packages/",
+        "outputPath": "/home/kdbyrkett/Documents/DotNet/MediaLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kbyrkett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/kdbyrkett/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,35 +49,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
         }
       }
     }

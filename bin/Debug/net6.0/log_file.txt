@@ -1,0 +1,12 @@
+2024-03-14 13:26:07.6654|INFO|Program|Program started
+2024-03-14 13:26:07.7186|INFO|FileScrubber|File scrub started
+2024-03-14 13:26:07.7215|ERROR|FileScrubber|Could not find file 'C:\Users\kbyrkett\Documents\MediaLibrary\movies.csv'.
+2024-03-14 13:26:07.7215|INFO|Program|
+2024-03-14 13:26:07.7215|ERROR|MovieFile|Empty path name is not legal.
+2024-03-14 13:26:07.7215|INFO|Program|Program ended
+2024-03-14 13:30:45.4475|INFO|Program|Program started
+2024-03-14 13:30:45.4934|INFO|FileScrubber|File scrub started
+2024-03-14 13:30:45.5195|INFO|FileScrubber|File scrub ended
+2024-03-14 13:30:45.5195|INFO|Program|movies.scrubbed.csv
+2024-03-14 13:30:45.5453|INFO|MovieFile|Movies in file 9125
+2024-03-14 13:30:45.5562|INFO|Program|Program ended
