@@ -1,11 +1,12 @@
-﻿using NLog;
+﻿using System.Security.Cryptography.X509Certificates;
+using NLog;
 
 // See https://aka.ms/new-console-template for more information
-string path = Directory.GetCurrentDirectory() + "\\nlog.config";
-
+string path = Directory.GetCurrentDirectory() + $"{Path.DirectorySeparatorChar}nlog.config";
 // create instance of Logger
 var logger = LogManager.LoadConfiguration(path).GetCurrentClassLogger();
 logger.Info("Program started");
+
 
 string scrubbedFile = FileScrubber.ScrubMovies("movies.csv");
 logger.Info(scrubbedFile);

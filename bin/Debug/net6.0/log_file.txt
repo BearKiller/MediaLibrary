@@ -10,3 +10,15 @@
 2024-03-14 13:30:45.5195|INFO|Program|movies.scrubbed.csv
 2024-03-14 13:30:45.5453|INFO|MovieFile|Movies in file 9125
 2024-03-14 13:30:45.5562|INFO|Program|Program ended
+2024-03-21 13:39:02.8474|INFO|Program|Program started
+2024-03-21 13:52:26.2465|INFO|Program|Program started
+2024-03-21 13:55:35.4166|INFO|Program|Program started
+2024-03-21 14:03:14.6495|INFO|Program|Program started
+2024-03-21 14:03:14.7053|INFO|FileScrubber|File scrub started
+2024-03-21 14:03:14.7237|INFO|FileScrubber|File scrub ended
+2024-03-21 14:03:14.7241|INFO|Program|movies.scrubbed.csv
+2024-03-21 14:04:04.4099|INFO|Program|Program started
+2024-03-21 14:04:04.4694|INFO|FileScrubber|File already scrubbed
+2024-03-21 14:04:04.4694|INFO|Program|movies.scrubbed.csv
+2024-03-21 14:04:04.4955|INFO|MovieFile|Movies in file 9125
+2024-03-21 14:04:04.5044|INFO|Program|Program ended
