@@ -84,3 +84,14 @@
 2024-03-25 12:12:41.7521|INFO|Program|User choice: "2"
 2024-03-25 12:12:41.7521|INFO|Program|movies.scrubbed.csv located.
 2024-03-25 12:13:03.4819|INFO|Program|Program ended
+2024-03-25 12:38:09.1236|INFO|Program|Program started
+2024-03-25 12:38:09.1814|INFO|FileScrubber|File already scrubbed
+2024-03-25 12:38:09.1816|INFO|Program|movies.scrubbed.csv
+2024-03-25 12:38:09.2085|INFO|MovieFile|Movies in file 9125
+2024-03-25 12:38:10.5874|INFO|Program|User choice: "2"
+2024-03-25 12:38:10.5874|INFO|Program|movies.scrubbed.csv located.
+2024-03-25 12:38:12.8773|INFO|Program|User choice: "1"
+2024-03-25 12:38:34.3755|INFO|MovieFile|Media id 164980 added
+2024-03-25 12:38:39.3032|INFO|Program|User choice: "2"
+2024-03-25 12:38:39.3032|INFO|Program|movies.scrubbed.csv located.
+2024-03-25 12:38:50.7483|INFO|Program|Program ended

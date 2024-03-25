@@ -24,10 +24,50 @@ do {
     Console.Write("> ");
     option = Console.ReadLine();
     switch(option) {
+
     // Menu to add movies
         case "1":
         logger.Info("User choice: \"1\"");
+        if (File.Exists(scrubbedFile)) {
+            Movie newMovie = new Movie();
+
+            Console.WriteLine("Enter movie title");
+            newMovie.title = Console.ReadLine();
+
+            Console.WriteLine("Enter genres of the movie (type 'done' to finish):");
+            newMovie.genres = new List<string>();
+            string genreInput;
+            do {
+                genreInput = Console.ReadLine();
+                if (genreInput.ToLower() != "done")
+                    newMovie.genres.Add(genreInput);
+            } while (genreInput.ToLower() != "done");
+
+        Console.WriteLine("Enter movie director");
+        newMovie.director = Console.ReadLine();
+
+        bool fail = true;
+        while (fail) {
+            Console.WriteLine("Enter running time(h:m:s)");
+            string runningTimeInput = Console.ReadLine();
+            TimeSpan runningTime;
+            if (TimeSpan.TryParse(runningTimeInput, out runningTime)) {
+                newMovie.runningTime = runningTime;
+                fail = false;
+            } else {
+                Console.WriteLine("Invalid input for running time.");
+            }
+            
+        movieFile.AddMovie(newMovie);
+
+        }
+
+        } else {
+            logger.Warn("movies.scrubbed.csv is missing.");
+        }
         break;
+
+
 
     // Menu to display all movies
         case "2":
@@ -43,7 +83,7 @@ do {
                 Console.WriteLine($"Running Time: {movie.runningTime}");
                 Console.WriteLine();
             }
-            
+
         } else {
             logger.Warn("movies.scrubbed.csv is missing.");
         }
