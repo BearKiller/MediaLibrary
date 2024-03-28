@@ -20,6 +20,7 @@ do {
     //Console.Clear();
     Console.WriteLine("1) Add a Movie");
     Console.WriteLine("2) Display All Movies");
+    Console.WriteLine("3) Find Movie");
     Console.WriteLine("Press enter to quit");
     Console.Write("> ");
     option = Console.ReadLine();
@@ -88,7 +89,22 @@ do {
             logger.Warn("movies.scrubbed.csv is missing.");
         }
         break;
+
+
+
+    // Menu to allow the user to search for movies
+        case "3":
+        Console.Clear();
+        string query = Inputs.GetString("Search for movie by title > ");
+        var queryMovies = movieFile.Movies.Where(m => m.title.Contains(query)).Select(m => m.title);
+
+        Console.WriteLine($"There are {queryMovies.Count()} movies with {query} in the title:");
+        foreach (string m in queryMovies) {
+            Console.WriteLine($" {m}");
+        }
+        break;
     }
-} while (option == "1" || option == "2");
+
+} while (option == "1" || option == "2" || option == "3");
 
 logger.Info("Program ended");
